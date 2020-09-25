@@ -23,5 +23,5 @@ markdown: kramdown
 plugins:
   - jekyll-remote-theme
 
-remote_theme: arnolds/pineapple
+remote_theme: mmistakes/minimal-mistakes
 
