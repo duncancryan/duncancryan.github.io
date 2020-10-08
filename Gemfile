@@ -4,10 +4,15 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "github-pages", group: :jekyll_plugins
 
 
-gem "jekyll-remote-theme"
-gem "jekyll-include-cache"
+group :jekyll_plugins do
+    gem "github-pages"
+    gem "jekyll-remote-theme"
+    gem "jekyll-include-cache"
+end
+
+
+gem "faraday", "0.17.3"
 
 # gem "rails"
